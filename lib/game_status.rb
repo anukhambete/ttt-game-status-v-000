@@ -47,3 +47,9 @@ def over?(board)
   false
   end
 end
+
+def winner(board)
+  if draw?(board)==true
+    nil
+  end
+end
