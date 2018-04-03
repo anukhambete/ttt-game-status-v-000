@@ -21,9 +21,9 @@ def won?(board)
     #win comb outer array wc_oa
    w_x = wc_oa.all?{|i| board[i] =="X"}
    w_o = wc_oa.all?{|i| board[i] =="O"}
-   if w_x == true || w_o == true
-     return wc_oa
-   end
-   
+     if w_x == true || w_o == true
+       return wc_oa
+     end
   end
+  return nil
 end
