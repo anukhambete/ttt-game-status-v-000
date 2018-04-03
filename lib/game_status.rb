@@ -49,11 +49,9 @@ def over?(board)
 end
 
 def winner(board)
-a = won?(board)
-x = a[0]
-  if draw?(board)==true
-    nil
-  elsif won?board != nil
+arr_1 = won?(board)
+x = arr_1[0]
+  if won?board != nil
     return board[x]
   end
 end
