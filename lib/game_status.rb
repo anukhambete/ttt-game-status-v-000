@@ -34,10 +34,10 @@ end
 
 def draw?(board)
   
-if  full?(board) == true && won?(board)==nil
-  true
-else
-  false
-end
+  if  full?(board) == true && won?(board)==nil
+    true
+  else
+    false
+  end
 
 end
