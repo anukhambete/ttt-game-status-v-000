@@ -17,5 +17,6 @@ WIN_COMBINATIONS=
 ]
   
 def won?(board)
-  
+  WIN_COMBINATIONS.each do |wc_oa|
+    
 end
