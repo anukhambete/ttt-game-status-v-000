@@ -19,7 +19,7 @@ WIN_COMBINATIONS=
 def won?(board)
   WIN_COMBINATIONS.each do |wc_oa|     
     #win comb outer array wc_oa
-   w_a = wc_oa.all?{|i| i =="X"||i =="O"}
+   w_a = wc_oa.all?{|i| board[i] =="X"||board[i] =="O"}
    if w_a == true
      return wc_oa
    else
