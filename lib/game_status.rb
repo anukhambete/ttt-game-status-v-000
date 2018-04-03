@@ -54,6 +54,6 @@ x = arr_1[0]
   if won?(board) != nil
     return board[x]
   else
-    return nil
+    return false
   end
 end
