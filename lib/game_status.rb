@@ -20,4 +20,6 @@ def won?(board)
   WIN_COMBINATIONS.each do |wc_oa|     
     #win comb outer array wc_oa
    wc_oa.each do |i| 
+     if position_taken?(board,i) == true
+       
 end
