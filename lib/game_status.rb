@@ -22,8 +22,6 @@ def won?(board)
    w_a = wc_oa.all?{|i| board[i] =="X"} #||board[i] =="O"}
    if w_a == true
      return wc_oa
-   else
-     return nil
    end
    
   end
