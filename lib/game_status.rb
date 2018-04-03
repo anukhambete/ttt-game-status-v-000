@@ -51,7 +51,7 @@ end
 def winner(board)
 arr_1 = won?(board)
 x = arr_1[0]
-  if won?board != nil
+  if won?(board) != nil
     return board[x]
   end
 end
