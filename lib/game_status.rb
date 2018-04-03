@@ -34,7 +34,7 @@ end
 
 def draw?(board)
   
-if  full?(board) == true && defwon?(board)==nil
+if  full?(board) == true && won?(board)==nil
   true
 else
   false
